@@ -1,0 +1,31 @@
+{
+  "name": "scottlib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "targets": {
+    "main": {
+      "outputFormat": "esmodule",
+      "includeNodeModules": true,
+      "isLibrary": true
+    }
+  },
+  "scripts": {
+    "build": "parcel build src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://scottfwalter@github.com/scottfwalter/scottlib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottfwalter/scottlib/issues"
+  },
+  "homepage": "https://github.com/scottfwalter/scottlib#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
