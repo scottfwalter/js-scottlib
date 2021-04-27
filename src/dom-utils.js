@@ -50,7 +50,7 @@ export const scrollStop = (callback) => {
 	let isScrolling;
 
 	// Listen for scroll events
-	window.addEventListener('scroll', function (event) {
+	window.addEventListener('scroll', function () {
 		// Clear our timeout throughout the scroll
 		window.clearTimeout(isScrolling);
 		// Set a timeout to run after scrolling ends
