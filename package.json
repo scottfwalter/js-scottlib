@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
+  "type": "module",
   "targets": {
     "main": {
       "outputFormat": "esmodule",
@@ -27,6 +28,6 @@
   "homepage": "https://github.com/scottfwalter/scottlib#readme",
   "devDependencies": {
     "eslint": "^7.22.0",
-    "parcel": "^2.0.0-beta.2"
+    "parcel": "^2.0.0-rc.0"
   }
 }
