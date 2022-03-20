@@ -1,18 +1,17 @@
 <html>
   <head>
-    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <h1>Example Library</h1>
 
     <div id="esm-bundled"></div>
     <script type="module">
-      import { uid } from './dist/index.js';
+      import { uid } from './dist/index.esm.js';
 
-      setTimeout(() => {
+      // setTimeout(() => {
         const content = document.querySelector('#esm-bundled');
         content.textContent = uid();
-      }, 2000);
+      // }, 2000);
     </script>
   </body>
 </html>
