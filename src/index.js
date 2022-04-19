@@ -1,3 +1,4 @@
+export * from './color-utils';
 export * from './dom-utils';
 export * from './etc-utils';
 export * from './function-utils';
