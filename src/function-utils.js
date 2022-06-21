@@ -1,9 +1,3 @@
-export function sleep(duration) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, duration);
-  });
-}
-
 export function memoize(cb) {
   const cache = new Map();
   return (...args) => {
